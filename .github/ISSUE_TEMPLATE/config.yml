@@ -1,0 +1,7 @@
+# Permite abrir Issue em branco (sem template) — fricção zero.
+blank_issues_enabled: true
+
+contact_links:
+  - name: 💬 Prefere falar direto?
+    url: https://github.com/Israelar/trilha-dados/issues/new
+    about: Pode abrir uma Issue em branco e escrever do seu jeito. Ou chamar no WhatsApp — o canal que funcionar pra você é o certo.
