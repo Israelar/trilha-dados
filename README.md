@@ -6,15 +6,15 @@
 
 ---
 
-## 🆘 Travou? Me chama — sempre.
+## 🆘 Travou? **Me chama no WhatsApp.**
 
-**[👉 Clique aqui pra pedir ajuda](https://github.com/Israelar/trilha-dados/issues/new/choose)**
-
-Não precisa caprichar, não precisa "já ter tentado", não precisa saber explicar. Pode ser literalmente *"travei no M1, não sei o que fazer"*. Sério.
+Sério: é o canal oficial de dúvida desta trilha. Sem formulário, sem cerimônia, sem precisar saber explicar. Pode ser literalmente *"travei, não sei o que fazer"* — de preferência **com um print da tela**.
 
 > **Pergunta idiota não existe aqui.** Toda dúvida que você tiver, outra pessoa vai ter — e vira material da trilha. Você está me ajudando a melhorar isso.
 >
-> Se o GitHub estiver te atrapalhando mais do que ajudando, **me chama no WhatsApp**. O canal que funciona pra você é o canal certo. Não some pra "voltar quando entender" — é justamente aí que eu entro.
+> **Não some pra "voltar quando entender".** Travar faz parte; ficar travada sozinha, não. É exatamente aí que eu entro.
+
+*(Se em algum momento você preferir registrar por escrito, dá pra [abrir uma Issue aqui](https://github.com/Israelar/trilha-dados/issues/new/choose) — mas é opcional, não um pré-requisito.)*
 
 ---
 
@@ -83,22 +83,29 @@ Trabalhar com dados é uma cadeia. Vale saber a cadeia inteira — mesmo que voc
 ## 📚 Os módulos
 
 ### M0 — Setup (1 dia)
-**Objetivo:** ambiente pronto e você sabendo pedir ajuda.
-- [ ] Criar conta no GitHub.
+**Objetivo:** ambiente pronto e o tema escolhido. **Nada de GitHub por enquanto.**
 - [ ] Instalar **Power BI Desktop** (grátis, Microsoft Store) e **DB Browser for SQLite** (grátis).
-- [ ] **Escolher o tema do seu projeto** (anota no `PROGRESSO.md`).
-- [ ] **Tarefa:** [abrir uma Issue](https://github.com/Israelar/trilha-dados/issues/new/choose) escrevendo só **"oi, cheguei"**. É só pra você ver que o canal funciona — leva 30 segundos.
-- **Material:** [GitHub Skills — Introduction to GitHub](https://skills.github.com/) (grátis, 30 min) — *opcional, faça só se tiver curiosidade.*
+- [ ] **Escolher o tema do seu projeto** — anote no `PROGRESSO.md` (baixe este arquivo ou copie pra um bloco de notas seu).
+- [ ] **Tarefa:** me manda no WhatsApp o **tema que você escolheu**. Só isso. É o "oi, cheguei" da trilha. 🙂
+
+> ℹ️ **Por que ainda não tem GitHub aqui?** Porque ele só faz sentido quando você tiver algo pra guardar — e isso acontece no M1. Aprender ferramenta antes de ter necessidade é o jeito mais rápido de desanimar. Uma coisa de cada vez.
 
 ### M1 — SQL & pensar em dados (~2 semanas)
 **Camada do projeto:** 🗄️ **a base de dados**
 **Objetivo:** buscar e cruzar dados — a linguagem universal de quem trabalha com dados.
+
+> 🐙 **Agora sim, o GitHub** — porque agora você tem algo pra guardar.
+> - Crie sua conta no GitHub e depois **crie um repositório SEU** (botão verde **New**), com o nome do seu projeto (ex.: `projeto-eficiencia-linha`).
+> - ⚠️ **Não use o botão "Fork" neste repositório aqui.** Fork faz uma cópia congelada — você deixaria de ver as melhorias da trilha, e já deu confusão antes. Este repo aqui é seu **material de leitura**; o seu repo é onde mora **o seu projeto**.
+> - Vantagem: esse repositório **é o seu portfólio**. É o link que vai no seu LinkedIn e na entrevista.
+> - Material (opcional): [GitHub Skills — Introduction to GitHub](https://skills.github.com/) (grátis, 30 min).
+
 - Conceitos: tabela, linha, coluna, chave · `SELECT`, `WHERE`, `ORDER BY`, `GROUP BY`, `JOIN`.
 - **Material grátis (na ordem):**
   - [SQLBolt](https://sqlbolt.com/) — interativo, o melhor pra começar.
   - [Mode — SQL Tutorial](https://mode.com/sql-tutorial/) — básico → intermediário.
   - [W3Schools SQL](https://www.w3schools.com/sql/) — referência de consulta.
-- **Tarefa:** baixar um dataset de manufatura no [Kaggle](https://www.kaggle.com/datasets?search=manufacturing) → abrir no DB Browser → escrever 5 consultas que respondam perguntas de negócio (ex.: produção total por linha, top 3 turnos com mais refugo, lead time médio por produto). Commitar os `.sql` em `M1/`.
+- **Tarefa:** baixar um dataset de manufatura no [Kaggle](https://www.kaggle.com/datasets?search=manufacturing) → abrir no DB Browser → escrever 5 consultas que respondam perguntas de negócio (ex.: produção total por linha, top 3 turnos com mais refugo, lead time médio por produto). Salvar os `.sql` numa pasta `M1/` **no seu repositório**.
 - **Pronto quando:** você responde uma pergunta de negócio com uma consulta, sem copiar.
 
 > 🔥 **Modo hard (opcional — só se quiser puxar mais):** em vez de SQLite, subir um **PostgreSQL** (local ou grátis no [Neon](https://neon.tech)) e carregar os dados lá. Ganho: experiência com banco de verdade. Custo: instalação/configuração. **Não faça isso na primeira passada** — SQLite é arquivo, zero instalação, e ensina o mesmo SQL.
@@ -120,7 +127,7 @@ Trabalhar com dados é uma cadeia. Vale saber a cadeia inteira — mesmo que voc
 > - **Medida DAX > coluna calculada** sempre que der (mais leve).
 > - **Documente:** um `README.md` na pasta dizendo de onde vêm os dados e o que cada medida significa.
 
-- **Tarefa:** pegar a base do M1 → limpar no Power Query → montar o modelo (star schema) → 1 medida em DAX → 3 visuais. Salvar em `M2/`.
+- **Tarefa:** pegar a base do M1 → limpar no Power Query → montar o modelo (star schema) → 1 medida em DAX → 3 visuais. Salvar em `M2/` no seu repositório.
 - **Pronto quando:** você monta um modelo do zero, sozinha, e sabe explicar por que separou as tabelas.
 
 ### M3 — Análise aplicada à produção (~1 semana) — *seu superpoder*
@@ -128,7 +135,7 @@ Trabalhar com dados é uma cadeia. Vale saber a cadeia inteira — mesmo que voc
 **Objetivo:** conectar dado a decisão usando o que você JÁ sabe.
 - KPIs: **OEE** (Disponibilidade × Performance × Qualidade), refugo/scrap, PCP (planejado × realizado), lead time, aderência ao plano.
 - Estatística descritiva: média, mediana, desvio, tendência (o essencial, sem academicismo).
-- **Tarefa:** 4 KPIs de produção no seu modelo (OEE, refugo %, aderência PCP, lead time) com semáforo verde/vermelho. Pasta `M3/`.
+- **Tarefa:** 4 KPIs de produção no seu modelo (OEE, refugo %, aderência PCP, lead time) com semáforo verde/vermelho. Pasta `M3/` no seu repositório.
 - **Pronto quando:** o painel responde *"onde estamos perdendo eficiência?"* — não só mostra números.
 
 ### M4 — 🏆 Projeto de portfólio (~2 semanas) — *o que te contrata*
@@ -147,7 +154,7 @@ Trabalhar com dados é uma cadeia. Vale saber a cadeia inteira — mesmo que voc
 > 7. **Respire.** Espaço em branco não é desperdício — é o que deixa o olho descansar e encontrar o que importa.
 
 - **Entregue:** dados → modelo → dashboard → **README com problema → solução → insight**.
-- Publique no seu GitHub (e, se quiser, no Power BI Service público).
+- Finalize **o seu repositório** (aquele do M1) — ele agora é o seu portfólio. É este link que vai no LinkedIn e na entrevista. (Se quiser, publique também no Power BI Service público.)
 - **Pronto quando:** você apresenta em 3 min: *"o problema era X, eu modelei Y, o insight foi Z."* É exatamente o que o entrevistador quer ouvir.
 
 ### M5 — Python & Eng. de Dados *(opcional — só depois da vaga, ou se a vaga pedir)*

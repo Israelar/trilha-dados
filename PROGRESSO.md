@@ -2,7 +2,8 @@
 
 Marque com `[x]` conforme for concluindo. Um passo de cada vez — sem pressa, sem pular.
 
-> 🆘 Travou em qualquer item? **[Me chama aqui](https://github.com/Israelar/trilha-dados/issues/new/choose)** — pode ser só "travei, socorro".
+> 🆘 Travou em qualquer item? **Me chama no WhatsApp** — pode ser só "travei, socorro" + print da tela.
+> 💡 Este arquivo é seu: baixe, copie pro seu repositório (a partir do M1) ou mantenha num bloco de notas.
 
 ---
 
@@ -15,13 +16,14 @@ Marque com `[x]` conforme for concluindo. Um passo de cada vez — sem pressa, s
 ---
 
 ## M0 — Setup
-- [ ] Conta no GitHub
 - [ ] Power BI Desktop instalado
 - [ ] DB Browser for SQLite instalado
 - [ ] **Tema do projeto escolhido** (anotei ali em cima ↑)
-- [ ] Primeira Issue aberta ("oi, cheguei") ✋
+- [ ] Mandei o tema no WhatsApp ("oi, cheguei") ✋
 
 ## M1 — SQL & pensar em dados → 🗄️ *a base de dados*
+- [ ] Conta no GitHub criada
+- [ ] **Meu repositório criado** (não é fork!) — link: ______
 - [ ] SQLBolt concluído
 - [ ] Mode SQL Tutorial (básico → intermediário)
 - [ ] Dataset escolhido e carregado
